@@ -1,0 +1,140 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Untuk Kamu ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- HALAMAN AWAL -->
+
+    <div class="container" id="halamanAwal">
+
+        <div class="card">
+
+            <div class="heart">
+                💌
+            </div>
+
+            <h1>
+                Hai kamu...
+            </h1>
+
+            <p>
+                Ada sesuatu yang ingin aku sampaikan.
+            </p>
+
+            <p>
+                Tapi sebelum itu,
+                tulis nama kamu dulu ya ❤️
+            </p>
+
+            <input
+                type="text"
+                id="nama"
+                placeholder="Tulis nama kamu..."
+                autocomplete="off"
+            >
+
+            <button onclick="bukaPesan()">
+                Buka Pesannya 💗
+            </button>
+
+            <p
+                id="error"
+                class="error"
+            ></p>
+
+        </div>
+
+    </div>
+
+
+    <!-- HALAMAN PESAN -->
+
+    <div
+        class="container hidden"
+        id="halamanPesan"
+    >
+
+        <div class="card">
+
+            <div class="heart">
+                ❤️
+            </div>
+
+            <h1>
+                Hai,
+                <span id="namaTampil"></span>
+            </h1>
+
+            <p>
+                Sebenarnya ada sesuatu yang
+                sudah lama ingin aku sampaikan.
+            </p>
+
+            <p>
+                Aku nggak tahu harus mulai
+                dari mana...
+            </p>
+
+            <p>
+                Tapi akhirnya aku memberanikan
+                diri untuk jujur.
+            </p>
+
+            <h2>
+                Aku suka sama kamu. ❤️
+            </h2>
+
+            <p>
+                Aku cuma ingin kamu tahu
+                apa yang sebenarnya aku rasakan.
+            </p>
+
+            <h2>
+                jadi DO YOU WANT TO BE MY GIRLFRIEND 
+            </h2>
+
+            <button
+                class="iya"
+                onclick="jawabIya()"
+            >
+                IYA ❤️
+            </button>
+
+            <button
+                class="kenal"
+                onclick="jawabKenal()"
+            >
+                MAAF AKU MAU KITA SEBATAS TEMAN 💗
+            </button>
+
+            <p class="catatan">
+                Jawaban akan dikirim melalui WhatsApp 📱
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+```
